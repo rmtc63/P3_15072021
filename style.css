@@ -185,6 +185,41 @@
   	}
 	
 
+/**  Footer **/
+	.footer {
+	background-color: #2c2c2c;
+	padding: 35px 40px 40px 0px;
+  	}
+  	.footer_logo2 {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	color: #fff;
+	width: 120px;
+	padding-left: 39px;
+  	}
+  	.footer_icon2 {
+	padding-right: 10px;
+  	}
+  	.footer_icon1 {
+	padding-right: 16px;
+  	}
+  	.footer_link {
+	display: flex;
+	text-decoration: none;
+	text-align: start;
+	flex-direction: row;
+  	}
+  	.footer_link:hover {
+	text-decoration: underline;
+  	}
+  	.footer_link:link {
+	color: #fff;
+  	}
+  	.footer_link:visited {
+	color: #fff;
+  	}
+	
+
 	
 
 
