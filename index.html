@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-	<html lang="fr">
+
+<html lang="fr">
+	
 		<head>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="initial-scale=1" />
@@ -7,58 +9,126 @@
 			<link rel="stylesheet" href="style.css">
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 		</head>
-		<body>
-	<!-- Loader -->
+	<body>
+
+	<!-- LOADER SPINNER -->
+		
 			<div class="loader">
-				<div class="loader_div">
-					<div class="loader_div_cl"></div>
+				<div class="loader__spinner">
+					<div class="loader__spinner__element"></div>
 				</div>
 			</div>
-	<!-- Header -->
+
+	<!-- HEADER -->
+		
 			<header class="header">
-				<a href=""><img class="header_logo" src="images\logo\ohmyfood@2x.svg" alt="logo OMF"></a>
+				<a href=""><img class="header__logo" src="images\logo\ohmyfood@2x.svg" alt="logo OMF"></a>
 			</header>
-			<main>
-	<!-- Search -->
+
+		<main>
+
+	<!-- SEARCH -->
+			
 			<div class="search">
-				<div class="search_div">
-					<i class="fas fa-map-marker-alt search_icon"></i>
-					<span class="search_place">Paris, Belleville</span>
+				<div class="search__main">
+					<i class="fas fa-map-marker-alt search__icon"></i>
+					<span class="search__text">Paris, Belleville</span>
 				</div>
 			</div>
-	<!-- Presentation -->
-			<section class="presentation">
-				<h1 class="presentation_text">Réservez le menu qui vous convient</h1>
-				<p class="presentation_subtext">
-					Découvrez des restaurants d'exception, sélectionnés par nos soins.
+
+	<!-- INFORMATION -->
+			<section class="info">
+				<h1 class="info__text">Réservez le menu qui vous convient</h1>
+				<p class="info__subtext">
+					Découvrez des restaurants d'exception, séléctionnés par nos soins.
 				</p>
-				<span class="presentation_btn">Explorer nos restaurants</span>
+				<span class="info__btnexplorer">Explorer nos restaurants</span>
 			</section>
-	<!-- Function  -->
-			<section class="function">
-				<div class="container">
-					<h2 class="function_title">Fonctionnemenent</h2>
-					<ol class="function_liste">
-						<li class="function_shape">
-							<i class="function_icon fas fa-mobile-alt"></i>
-							<span class="function_text">Choisissez un restaurant</span>
+
+	<!-- FUNCTION -->
+			<section class="fonction">
+				<div class="bloc">
+						<h2 class="function__tERM">Fonctionnemenent</h2>
+					<ol class="function__list">
+						<li class="function__main">
+							<i class="function__icon fas fa-mobile-alt"></i>
+							<span class="function__text">Choisissez un restaurant</span>
 						</li>
-						<li class="function_shape">
-							<i class="function_icon fas fa-list-ul"></i>
-							<span class="function_text">Composez votre menu</span>
+						<li class="function__main">
+							<i class="function__icon fas fa-list-ul"></i>
+							<span class="function__text">Composez votre menu</span>
 						</li>
-						<li class="function_shape">
-							<i class="function_icon fas fa-store"></i>
-							<span class="function_text">Dégustez au restaurant</span>
+						<li class="function__main">
+							<i class="function__icon fas fa-store"></i>
+							<span class="function__text">Dégustez au restaurant</span>
 						</li>
 					</ol>
 				</div>
 			</section>
+
+	<!-- 4 RESTAURANTS -->
+			
+			<section class="resto">
+				<div class="bloc">
+						<h2 class="resto__line">Restaurants</h2>
+					<div class="restocards">
+						<a class="restocard" href="r1_lapalette.html">
+							<img src="images\restaurants\img_La palette du goût.jpg" alt="" class="restocard__img">
+							<span class="restocard__new">Nouveau</span>
+							<article class="restocard__art">
+								<div class="restocard__menu">
+									<h3 class="restocard__name">La palette du goût</h3>
+									<span class="restocard__place">Ménilmontant</span>
+								</div>
+								<div class="restocard__btn mainmenu__button">
+									<i class="restocard__heart1 mainmenu__heart far fa-heart fa-2x"></i>
+								</div>
+							</article>
+						</a>
+						<a class="restocard" href="r2_lanote.html">
+							<img src="images\restaurants\img_La note enchantée.jpg" alt="" class="restocard__img">
+							<span class="restocard__new">Nouveau</span>
+							<article class="restocard__art">
+								<div class="restocard__menu">
+									<h3 class="restocard__name">La note enchantée</h3>
+									<span class="restocard__place">Charonne</span>
+								</div>
+								<div class="restocard__btn mainmenu__button">
+									<i class="restocard__heart1 mainmenu__heart far fa-heart fa-2x"></i>
+								</div>
+							</article>
+						</a>
+						<a class="restocard" href="r3_lafrançaise.html">
+							<img src="images\restaurants\img_A la française.jpg" alt="" class="restocard__img">
+							<article class="restocard__art">
+								<div class="restocard__menu">
+									<h3 class="restocard__name">À la française</h3>
+									<span class="restocard__place">Cité Rouge</span>
+								</div>
+								<div class="restocard__btn mainmenu__button">
+									<i class="restocard__heart1 mainmenu__heart far fa-heart fa-2x"></i>
+								</div>
+							</article>
+						</a>
+						<a class="restocard" href="r4_ledelice.html">
+							<img src="images\restaurants\img_Le delice des sens.jpg" alt="" class="restocard__img">
+							<article class="restocard__art">
+								<div class="restocard__menu">
+									<h3 class="restocard__name">Le délice des sens</h3>
+									<span class="restocard__place">Folie-Méricourt</span>
+								</div>
+								<div class="restocard__btn mainmenu__button">
+									<i class="restocard__heart1 mainmenu__heart far fa-heart fa-2x"></i>
+								</div>
+							</article>
+						</a>
+					</div>
+				</div>
+					
+			</section>
+		</main>												
 				
-	
-				
-				
-<!-- FOOTER -->
+	<!-- FOOTER -->
 
 		<footer class="footer">
 			<div class="bloc">
