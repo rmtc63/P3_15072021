@@ -286,7 +286,7 @@
 	.restocard__heart1:hover {
 	  opacity: 1;
 	  background: linear-gradient(to right, #815eac, #9356DC);
-	  animation: carte__likev 1s ease-out;
+	  animation: restocard__heart1 1s ease-out;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: bold;
 	}
@@ -496,7 +496,7 @@
 	.mainmenu__heart1:hover {
 	  opacity: 1;
 	  background: linear-gradient(to right, #9356DC, #9356DC);
-	  animation: carte__likev 1s ease-out;
+	  animation: restocard__heart1 1s ease-out;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: bold;
 	}
