@@ -49,7 +49,7 @@ ul, ol
 	position:fixed;
 	z-index: 1000;
 	animation: opa 3s ease-in forwards;
-	&__spinner
+	&_spinner
 	{
 		width: 48px;
 		height: 48px;
@@ -93,7 +93,7 @@ ul, ol
 	position: relative;
 	display: flex;
 	justify-content: center;
-	&__logo
+	&_logo
 	{
 		height: 30px;
 		padding: 15px 15px 15px 15px;
@@ -101,7 +101,7 @@ ul, ol
 		align-items: center;
 	}
 
-	&__indexhtml
+	&_indexhtml
 	{
 		position: absolute;
 		left: 30px;
@@ -127,14 +127,14 @@ ul, ol
 	flex-direction: row;
 	justify-content: center;
 	color: rgb(54, 54, 54);
-	&__icon
+	&_icon
 	{
 		position: relative;
 		right: 10px;
 		padding-top: 10px;
 	}
 
-	&__text
+	&_text
 	{
 		position: relative;
 		padding-top: 10px;
@@ -156,7 +156,7 @@ ul, ol
 	background-color: #f6f6f6;
 	padding-left: 60px;
 	padding-right: 60px;
-	&__btnexplorer
+	&_btnexplorer
 	{
 		padding: 10px;
 		border-radius: 130px;
@@ -169,7 +169,7 @@ ul, ol
 		justify-content: center;
 	}
 
-	&__btnexplorer:hover
+	&_btnexplorer:hover
 	{
 		transform: scale(1.01);
 		cursor: pointer;
@@ -183,13 +183,13 @@ ul, ol
 
 .function
 {
-	&__term
+	&_term
 	{
 		padding: 18px;
 		font-size: 24px;
 	}
 
-	&__main
+	&_main
 	{
 		padding: 18px;
 		margin: 0px 0 10px 0px;
@@ -223,13 +223,13 @@ ul, ol
 		cursor:pointer}
 	}
 
-	&__text
+	&_text
 	{
 		padding-left:22px;
 		color:black !important;	
 	}
 
-	&__icon
+	&_icon
 	{		
 		padding: 2px 0px 1px 12px;
 	}
@@ -241,7 +241,7 @@ ul, ol
 {
 	background-color: #f6f6f6;
 	padding-bottom: 15px;
-	&__line
+	&_line
 	{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
@@ -268,7 +268,7 @@ ul, ol
 	}
 }
 
-@keyframes restocard__heart1
+@keyframes restocard_heart1
 {
 	0%
 	{
@@ -296,7 +296,7 @@ ul, ol
 	margin: 10px;
 	background-color: white;
 	border-radius:16px;
-	&__img
+	&_img
 	{
 		height: 200px;
 		width: 100%;
@@ -306,7 +306,7 @@ ul, ol
 		object-fit: cover;
 	}
 
-	&__new
+	&_new
 	{
 		padding: 8px;
 		border-radius: 2px;
@@ -318,13 +318,13 @@ ul, ol
 		font-weight: bold;
 	}
 
-	&__menu
+	&_menu
 	{
 		padding: 0 0 10px 15px;
 	
 	}
 	
-	&__btn
+	&_btn
 	{
 		position: absolute;
 		text-align:right;
@@ -332,7 +332,7 @@ ul, ol
 		right:2%    
 }
 
-	&__heart1
+	&_heart1
 	{
 		color: black;
 		cursor: pointer;
@@ -353,7 +353,7 @@ ul, ol
 {
 	background-color: #2c2c2c;
 	padding :35px 40px 40px 0px;
-	&__logo1
+	&_logo1
 	{
 		filter: invert(100%);
 		-webkit-filter:invert(100%);
@@ -362,17 +362,17 @@ ul, ol
 		padding-left: 35px;
 	}
 
-	&__icon2
+	&_icon1
 	{
 		padding-right: 10px;
 	}
 
-	&__icon1
+	&_icon2
 	{
 		padding-right: 16px;
 	}
 
-	&__link
+	&_link
 	{
 		display:flex;
 		text-decoration: none;
@@ -385,12 +385,12 @@ ul, ol
 
 	}
 
-	&__link:link
+	&_link:link
 	{
 		color: #fff;
 	}
 
-	&__link:visited
+	&_link:visited
 	{
 		color: #fff;
 	}
@@ -412,7 +412,7 @@ ul, ol
 	background-color: #f6f6f6;
 	z-index: 1;
 
-	&__header
+	&_header
 	{
 		padding: 16px 32px 0 16px;
 		display: flex;
@@ -420,13 +420,13 @@ ul, ol
 		justify-content: space-between;
 	}
 
-	&__term
+	&_term
 	{
 		font-family: Shrikhand;
 		font-weight: bold;
 	}
 
-	&__button
+	&_button
 	{
 		background-color: transparent;
 		border: transparent 0px solid;
@@ -444,7 +444,7 @@ ul, ol
 	overflow: hidden;
 	padding: 0 16px;
 
-	&__term
+	&_term
 	{
 		text-transform: uppercase;		
 		padding-bottom: 8px;
@@ -484,7 +484,7 @@ ul, ol
 	max-width: 100%;
 	max-width: 100%;
 
-	&__header
+	&_header
 	{
 		white-space: nowrap;
 		text-overflow: ellipsis;
@@ -492,7 +492,7 @@ ul, ol
 		flex: 1;
 	}
 
-	&__term
+	&_term
 	{
 		margin: 0;
 		white-space: nowrap;
@@ -500,7 +500,7 @@ ul, ol
 		overflow: hidden;		
 	}
 
-	&__base
+	&_base
 	{
 		margin: 0;
 		white-space: nowrap;
@@ -508,7 +508,7 @@ ul, ol
 		overflow: hidden;
 	}
 
-	&__price
+	&_price
 	{
 		font-weight: bold;
 		display: flex;
@@ -517,7 +517,7 @@ ul, ol
 		padding-left: 8px;
 	}
 
-	&__fig
+	&_fig
 	{
 		margin: -16px -80px -16px 16px;
 		background-color: #99E2D0;
@@ -528,7 +528,7 @@ ul, ol
 		transition-duration: 0.5s;
 	}
 
-	&__wrapicon
+	&_wrapicon
 	{
 		height: 26px;
 		width: 26px;
@@ -541,17 +541,17 @@ ul, ol
 		transition-duration: 0.5s;
 	}
 
-	&:hover &__fig
+	&:hover &_fig
 	{
 		margin-right: -16px;
 	}
 
-	&:hover &__wrapicon
+	&:hover &_wrapicon
 	{
 		transform: rotate(0);
 	}
 
-	&__icon
+	&_icon
 	{
 	color: #99E2D0}
 	}
@@ -589,17 +589,17 @@ ul, ol
 	}
 }
 
-	.mainmenu__heart1
+	.mainmenu_heart1
 	{
 		color: black;
 		cursor: pointer;
 	}
 
-	.mainmenu__heart1:hover
+	.mainmenu_heart1:hover
 	{
 	opacity: 1;
 	background :linear-gradient(to right,#9356DC, #9356DC);
-	animation:restocard__heart1 1s ease-out;
+	animation:restocard_heart1 1s ease-out;
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
 	}
@@ -612,7 +612,7 @@ ul, ol
 		align-items: center;
 		flex-direction: row;
 	}
-	.function__main
+	.function_main
 	{
 		flex: 1;
 		margin: 0 10px ;
