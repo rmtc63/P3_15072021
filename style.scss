@@ -36,6 +36,7 @@ ul, ol
 		opacity:0;
 		position: relative;
 	}
+
 }
 
 .loader
@@ -58,7 +59,7 @@ ul, ol
 		border: 3px dotted #9356DC;
 		animation: load 0.6s backwards infinite;
 		position: absolute;
-		&__element
+		&_element
 		{
 			width: 16px;
 			height: 16px;
@@ -68,10 +69,12 @@ ul, ol
 			animation: load 0.6s backwards infinite;
 			position: absolute;
 		}
+
 	}
+
 }
 
-@keyframes load
+@keyframes loader
 {
 	0%
 	{
@@ -82,6 +85,7 @@ ul, ol
 	{
 		transform: scale(2);
 	}
+
 }
 
 /** HEADER **/
@@ -217,20 +221,21 @@ ul, ol
 			position: absolute;
 			left: -12px;
 		}
-		
 		&:hover {background-color: rgba(241, 232, 250, 0.9);
-			color:#9356DC;	
+			color:#9356DC;
+		
 		cursor:pointer}
+
 	}
 
 	&_text
 	{
 		padding-left:22px;
-		color:black !important;	
+		color:black !important;
 	}
 
 	&_icon
-	{		
+	{
 		padding: 2px 0px 1px 12px;
 	}
 }
@@ -321,9 +326,9 @@ ul, ol
 	&_menu
 	{
 		padding: 0 0 10px 15px;
-	
 	}
 	
+
 	&_btn
 	{
 		position: absolute;
@@ -340,10 +345,11 @@ ul, ol
 		{
 			opacity: 1;
 			background :linear-gradient(to right,#815eac, #9356DC);
-			animation:carte__likev 1s ease-out;
+			animation:restocard_heart1 1s ease-out;
 			-webkit-text-fill-color: transparent;
 			font-weight: bold;
 		}
+
 	}
 }
 
@@ -364,12 +370,12 @@ ul, ol
 
 	&_icon1
 	{
-		padding-right: 10px;
+		padding-right: 12px;
 	}
 
 	&_icon2
 	{
-		padding-right: 16px;
+		padding-right: 6px;
 	}
 
 	&_link
@@ -403,7 +409,7 @@ ul, ol
 	max-height: 500px;
 	width: 100%;
 	object-fit: cover;
-	}
+}
 
 .mainmenu
 {
@@ -586,6 +592,7 @@ ul, ol
 			transition: 0.1s;
 			opacity: 0.9;
 		}
+
 	}
 }
 
