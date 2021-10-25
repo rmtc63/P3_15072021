@@ -111,7 +111,7 @@
 	  color: #363636;
 	}
 	.search_icon {
-	  positin: relative;
+	  position: relative;
 	  right: 10px;
 	  padding-top: 10px;
 	}
@@ -195,11 +195,11 @@
 	  color: #9356DC;
 	  cursor: pointer;
 	}
-	.function__text {
+	.function_text {
 	  padding-left: 22px;
 	  color: black !important;
 	}
-	.function__icon {
+	.function_icon {
 	  padding: 2px 0px 1px 12px;
 	}
 	
@@ -305,13 +305,13 @@
 	  padding-left: 39px;
 	}
 	.footer_icon1 {
-	  padding-right: 10px;
+	  padding-right: 12px;
 	}
 	.footer_icon2 {
-	  padding-right: 16px;
+	  padding-right: 6px;
 	}
 	.footer_link {
-	  display: flex;
+	 
 	  text-decoration: none;
 	  text-align: start;
 	  flex-direction: row;
@@ -523,10 +523,5 @@
 	  }
 	}
 	
-	/*# sourceMappingURL=style.css.map */
-
-
-
-	
-
+	/*# sourceMappingURL=style.css.map **/
 
