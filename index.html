@@ -1,154 +1,158 @@
 <!DOCTYPE html>
 
 <html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1"/>
+	<title>ohmyfood</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body>
 	
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="initial-scale=1"/>
-			<title>ohmyfood</title>
-			<link rel="stylesheet" href="style.css">
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-		</head>
-	<body>
-
 	<!-- LOADER SPINNER -->
-		
-			<div class="loader">
-				<div class="loader_spinner">
-					<div class="loader_spinner_element"></div>
-				</div>
-			</div>
-
+	
+	<div class="loader">
+		<div class="loader_spinner">
+			<div class="loader_spinner_element"></div>
+		</div>
+	</div>
+	
 	<!-- HEADER -->
+	
+	<header class="header">
+		<a href=""><img class="header_logo" src="images/logo/ohmyfood@2x.svg" alt="logo OMF"></a>
+	</header>
+	
+	<main>
 		
-			<header class="header">
-				<a href=""><img class="header_logo" src="images/logo/ohmyfood@2x.svg" alt="logo OMF"></a>
-			</header>
-
-		<main>
-
 	<!-- SEARCH -->
-			
+		
 		<div class="search">
 			<div class="search_main">
 				<i class="fas fa-map-marker-alt search_icon"></i>
 			</div>
 				<input type ="search_text" classe="town" placeholder="Paris, Belleville">
 		</div>
-
+		
 	<!-- INFORMATION -->
-			<section class="info">
-				<h1 class="info_text">Réservez le menu qui vous convient</h1>
-				<p class="info_subtext">
-					Découvrez des restaurants d'exception, séléctionnés par nos soins.
-				</p>
-				<span class="info_btnexplorer">Explorer nos restaurants</span>
-			</section>
 
+		<section class="info">
+			<h1 class="info_text">Réservez le menu qui vous convient</h1>
+			<p class="info_subtext">
+				Découvrez des restaurants d'exception, séléctionnés par nos soins.
+			</p>
+			<span class="info_btnexplorer">Explorer nos restaurants</span>
+		</section>
+		
 	<!-- FUNCTION -->
-			<section class="fonction">
-				<div class="bloc">
-						<h2 class="function_term">Fonctionnemenent</h2>
-					<ol class="function_list">
-						<li class="function_main">
-							<i class="function_icon fas fa-mobile-alt"></i>
-							<span class="function_text">Choisissez un restaurant</span>
-						</li>
-						<li class="function_main">
-							<i class="function_icon fas fa-list-ul"></i>
-							<span class="function_text">Composez votre menu</span>
-						</li>
-						<li class="function_main">
-							<i class="function_icon fas fa-store"></i>
-							<span class="function_text">Dégustez au restaurant</span>
-						</li>
-					</ol>
-				</div>
-			</section>
 
-	<!-- 4 RESTAURANTS -->
-			
-			<section class="resto">
-				<div class="bloc">
-						<h2 class="resto_line">Restaurants</h2>
-					<div class="restocards">
-						<a class="restocard" href="r1_lapalette.html">
-							<img src="images/restaurants/img_La palette du goût.jpg" alt="" class="restocard_img">
-							<span class="restocard_new">Nouveau</span>
-							<article class="restocard_art">
-								<div class="restocard_menu">
-									<h3 class="restocard_name">La palette du goût</h3>
-									<span class="restocard_place">Ménilmontant</span>
-								</div>
-								<div class="restocard_btn mainmenu_button">
-									<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
-								</div>
-							</article>
-						</a>
-						<a class="restocard" href="r2_lanote.html">
-							<img src="images/restaurants/img_La note enchantée.jpg" alt="" class="restocard_img">
-							<span class="restocard_new">Nouveau</span>
-							<article class="restocard_art">
-								<div class="restocard_menu">
-									<h3 class="restocard_name">La note enchantée</h3>
-									<span class="restocard_place">Charonne</span>
-								</div>
-								<div class="restocard_btn mainmenu_button">
-									<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
-								</div>
-							</article>
-						</a>
-						<a class="restocard" href="r3_lafrançaise.html">
-							<img src="images/restaurants/img_A la française.jpg" alt="" class="restocard_img">
-							<article class="restocard_art">
-								<div class="restocard_menu">
-									<h3 class="restocard_name">À la française</h3>
-									<span class="restocard_place">Cité Rouge</span>
-								</div>
-								<div class="restocard_btn mainmenu_button">
-									<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
-								</div>
-							</article>
-						</a>
-						<a class="restocard" href="r4_ledelice.html">
-							<img src="images/restaurants/img_Le delice des sens.jpg" alt="" class="restocard_img">
-							<article class="restocard_art">
-								<div class="restocard_menu">
-									<h3 class="restocard_name">Le délice des sens</h3>
-									<span class="restocard_place">Folie-Méricourt</span>
-								</div>
-								<div class="restocard_btn mainmenu_button">
-									<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
-								</div>
-							</article>
-						</a>
-					</div>
-				</div>
-					
-			</section>
-		</main>												
-				
-	<!-- FOOTER -->
-
-		<footer class="footer">
+		<section class="fonction">
 			<div class="bloc">
-				<span class="footer_logo"><img class="footer_logo1" src="images/logo/ohmyfood.png" alt="ohmyfood"></span>
-				<ul class="footer_list">
-					<li class="footer_sublist">
-						<a class="footer_link" href="#resto"><i class="footer_icon1 fas fa-utensils"></i>Proposer un restaurant</a>
+				<h2 class="function_term">Fonctionnemenent</h2>
+				<ol class="function_list">
+					<li class="function_main">
+						<i class="function_icon fas fa-mobile-alt"></i>
+						<span class="function_text">Choisissez un restaurant</span>
 					</li>
-					<li class="footer_sublist">
-						<a class="footer_link" href="#resto"><i class="footer_icon2 fas fa-hands-helping"></i>Devenir partenaire</a>
+					<li class="function_main">
+						<i class="function_icon fas fa-list-ul"></i>
+						<span class="function_text">Composez votre menu</span>
 					</li>
-					<li class="footer_sublist"><a class="footer_link" href="#">Mentions légales</a></li>
-					<li class="footer_sublist"><a class="footer_link" href="mailto:mail@ohmyfood.com">Contact</a></li>
-				</ul>
+					<li class="function_main">
+						<i class="function_icon fas fa-store"></i>
+						<span class="function_text">Dégustez au restaurant</span>
+					</li>
+				</ol>
 			</div>
-		</footer>
-	</body>
-</html>
+		</section>
+		
+	<!-- 4 RESTAURANTS -->
+		
+		<section class="resto">
+			<div class="bloc">
+				<h2 class="resto_line">Restaurants</h2>
+				<div class="restocards">
+					<a class="restocard" href="r1_lapalette.html">
+						<img src="images/restaurants/img_La palette du goût.jpg" alt="" class="restocard_img">
+						<span class="restocard_new">Nouveau</span>
+						<article class="restocard_art">
+							<div class="restocard_menu">
+								<h3 class="restocard_name">La palette du goût</h3>
+								<span class="restocard_place">Ménilmontant</span>
+							</div>
+							<div class="restocard_btn mainmenu_button">
+								<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
+							</div>
+						</article>
+					</a>
+					<a class="restocard" href="r2_lanote.html">
+						<img src="images/restaurants/img_La note enchantée.jpg" alt="" class="restocard_img">
+						<span class="restocard_new">Nouveau</span>
+						<article class="restocard_art">
+							<div class="restocard_menu">
+								<h3 class="restocard_name">La note enchantée</h3>
+								<span class="restocard_place">Charonne</span>
+							</div>
+							<div class="restocard_btn mainmenu_button">
+								<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
+							</div>
+						</article>
+					</a>
+					<a class="restocard" href="r3_lafrançaise.html">
+						<img src="images/restaurants/img_A la française.jpg" alt="" class="restocard_img">
+						<article class="restocard_art">
+							<div class="restocard_menu">
+								<h3 class="restocard_name">À la française</h3>
+								<span class="restocard_place">Cité Rouge</span>
+							</div>
+							<div class="restocard_btn mainmenu_button">
+								<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
+							</div>
+						</article>
+					</a>
+					<a class="restocard" href="r4_ledelice.html">
+						<img src="images/restaurants/img_Le delice des sens.jpg" alt="" class="restocard_img">
+						<article class="restocard_art">
+							<div class="restocard_menu">
+								<h3 class="restocard_name">Le délice des sens</h3>
+								<span class="restocard_place">Folie-Méricourt</span>
+							</div>
+							<div class="restocard_btn mainmenu_button">
+								<i class="restocard_heart1 mainmenu_heart1 far fa-heart fa-2x"></i>
+							</div>
+						</article>
+					</a>
+				</div>
+			</div>
 			
-				
-				
-				
+		</section>
 
+	</main>
+	
+	<!-- FOOTER -->
+	
+	<footer class="footer">
+		<div class="bloc">
+			<span class="footer_logo"><img class="footer_logo1" src="images/logo/ohmyfood.png" alt="ohmyfood"></span>
+			<ul class="footer_list">
+				<li class="footer_sublist">
+					<a class="footer_link" href="#resto"><i class="footer_icon1 fas fa-utensils"></i>Proposer un
+						restaurant</a>
+				</li>
+				<li class="footer_sublist">
+					<a class="footer_link" href="#"><i class="footer_icon2 fas fa-hands-helping"></i>Devenir
+						partenaire</a>
+				</li>
+				<li class="footer_sublist"><a class="footer_link" href="#">Mentions légales</a></li>
+				<li class="footer_sublist"><a class="footer_link" href="mailto:mail@ohmyfood.com">Contact</a></li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
+
+</html>
