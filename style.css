@@ -1,4 +1,4 @@
-	/*# sourceMappingURL=style.css.map **/
+/*# sourceMappingURL=style.css.map **/
 
 @charset "UTF-8";
 
@@ -24,7 +24,7 @@
 	
 	@keyframes opa {
 	  0% {
-	    opacity: 0.9;
+	    opacity: 0.5;
 	  }
 	  70% {
 	    opacity: 0;
@@ -287,13 +287,13 @@
 	}
 	.restocard_heart1:hover {
 	  opacity: 1;
-	  background: linear-gradient(to right, #815eac, #9356DC);
+	  background: linear-gradient(to right,#815eac #9356dc);
 	  animation: restocard_heart1 2s ease-out;
 	  -webkit-background-clip:text;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: bold;
 	}
-		
+	
 	/** RESTO-MENUS **/
 
 	.picture {
@@ -417,7 +417,7 @@
 	  transform: rotate(0);
 	}
 	.maincard_icon {
-	  color: #99E2D0;
+	  color: #125c49;
 	}
 	.a1, .a2, .a3 {
 	  animation-delay: 0.1s;
@@ -457,7 +457,7 @@
 	}
 	
 	.mainmenu_heart1 {
-	  color: black;
+	  color: #2c2c2c;
 	  cursor: pointer;
 	}
 	
@@ -465,12 +465,11 @@
 	  opacity: 1;
 	  background: linear-gradient(to right, #9356DC, #815eac);
 	  animation: restocard_heart1 2s ease-out;
-	  -webkit-backgroud-clip:text;
+	  -webkit-background-clip:text;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: bold;
 	}
 	
-
 	@media (min-width: 750px) {
 	  ol {
 	    display: flex;
@@ -492,38 +491,38 @@
 	    column-gap: 16px;
 	  }
 	}
-	
-/** FOOTER **/
+
+	/** FOOTER **/
 
 	.footer {
-	  background-color: #2c2c2c;
-	  padding: 35px 40px 40px 0px;
-	}
-	.footer_logo1 {
-	  filter: invert(100%);
-	  -webkit-filter: invert(100%);
-	  color: #fff;
-	  width: 120px;
-	  padding-left: 39px;
-	}
-	.footer_icon1 {
-	  padding-right: 12px;
-	}
-	.footer_icon2 {
-	  padding-right: 6px;
-	}
-	.footer_link {
-	 
-	  text-decoration: none;
-	  text-align: start;
-	  flex-direction: row;
-	}
-	.footer_link:hover {
-	  text-decoration: underline;
-	}
-	.footer_link:link {
-	  color: #fff;
-	}
-	.footer_link:visited {
-	  color: #fff;
-	}
+		background-color: #2c2c2c;
+		padding: 35px 40px 40px 0px;
+	  }
+	  .footer_logo1 {
+		filter: invert(100%);
+		-webkit-filter: invert(100%);
+		color: #fff;
+		width: 120px;
+		padding-left: 39px;
+	  }
+	  .footer_icon1 {
+		padding-right: 12px;
+	  }
+	  .footer_icon2 {
+		padding-right: 6px;
+	  }
+	  .footer_link {
+	   
+		text-decoration: none;
+		text-align: start;
+		flex-direction: row;
+	  }
+	  .footer_link:hover {
+		text-decoration: underline;
+	  }
+	  .footer_link:link {
+		color: #fff;
+	  }
+	  .footer_link:visited {
+		color: #fff;
+	  }	
