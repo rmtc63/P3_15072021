@@ -101,14 +101,13 @@
 	  color: black;
 	}
 	
-	/** SEARCH **/
-
-	.search {
-	  padding-bottom: 10px;
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: center;
-	  color: #363636;
+	.search {	
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 display: flex;
+	 lex-direction: row;
+	 justify-content: center;
+	 color: #363636;
 	}
 	.search_icon {
 	  position: relative;
