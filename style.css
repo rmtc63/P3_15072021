@@ -104,9 +104,7 @@
 	/** SEARCH **/
 
 	.search {
-	  border-top: 3px outset #e6e6e6;
-	  background-color: #f2f2f2;
-	  padding-bottom: 15px;
+	  padding-bottom: 10px;
 	  display: flex;
 	  flex-direction: row;
 	  justify-content: center;
@@ -114,14 +112,14 @@
 	}
 	.search_icon {
 	  position: relative;
-	  right: 5px;
-	  padding-top: 3px;
+	  right: 12px;
+	  padding-top: 4px;
 	}
 	.search_text {
 	  position: relative;
-	  padding-top: 10px;
+	  padding-top: 8px;
 	  font-style: normal;
-	  font-size: 20px;
+	  font-size: 18px;
 	}
 	
 	/** INFORMATION **/
