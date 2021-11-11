@@ -124,9 +124,6 @@ ul, ol
 
 .search
 {
-	border-top: 3px outset rgb(230, 230, 230);
-	background-color: #f2f2f2;
-	padding-bottom: 15px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -134,14 +131,14 @@ ul, ol
 	&_icon
 	{
 		position: relative;
-		right: 10px;
-		padding-top: 10px;
+		right: 12px;
+		padding-top: 4px;
 	}
 
-	&_text
+	&_span
 	{
 		position: relative;
-		padding-top: 10px;
+		padding-top: 8px;
 		font-style: normal;
 		font-size: 18px;
 	}
