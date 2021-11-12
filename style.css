@@ -282,7 +282,7 @@
 	}
 	.restocard_heart1:hover {
 	  opacity: 1;
-	  background: linear-gradient(to right,#815eac #9356dc);
+	  background: linear-gradient(to right,#815eac,#9356dc);
 	  animation: restocard_heart1 2s ease-out;
 	  -webkit-background-clip:text;
 	  -webkit-text-fill-color: transparent;
