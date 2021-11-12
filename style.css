@@ -194,7 +194,10 @@
 	}
 	.function_text {
 	  padding-left: 22px;
-	  color: black !important;
+	  color: black;
+	}
+	span .function_text {
+	  font-weight: bold;
 	}
 	.function_icon {
 	  padding: 2px 0px 1px 12px;
