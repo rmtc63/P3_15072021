@@ -168,7 +168,7 @@
 	  display: flex;
 	  font-size: 20px;
 	  list-style: none;
-	  font-weight: lighter;
+	  font-weight: bold;
 	  max-width: 88%;
 	  left: -14px;
 	}
@@ -195,7 +195,6 @@
 	.function_text {
 	  padding-left: 22px;
 	  color: black;
-	  font-weight: bold;
 	}
 	.function_icon {
 	  padding: 2px 0px 1px 12px;
