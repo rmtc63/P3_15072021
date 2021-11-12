@@ -286,7 +286,7 @@
 	}
 	.restocard_heart1:hover {
 	  opacity: 1;
-	  background: linear-gradient(to right,#815eac,#9356dc);
+	  background: linear-gradient(to right, #9356DC, #FF79DA);
 	  animation: restocard_heart1 2s ease-out;
 	  -webkit-background-clip:text;
 	  -webkit-text-fill-color: transparent;
@@ -462,7 +462,7 @@
 	
 	.mainmenu_heart1:hover {
 	  opacity: 1;
-	  background: linear-gradient(to right, #9356DC, #815eac);
+	  background: linear-gradient(to right, #9356DC, #FF79DA);
 	  animation: restocard_heart1 2s ease-out;
 	  -webkit-background-clip:text;
 	  -webkit-text-fill-color: transparent;
