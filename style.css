@@ -270,6 +270,10 @@
 	.restocard_menu {
 	  padding: 0 0 10px 15px;
 	}
+	.restocard_name {
+	  font-family: Shrikhand;
+	  font-weight: bold;
+	}	
 	.restocard_btn {
 	  position: absolute;
 	  text-align: right;
